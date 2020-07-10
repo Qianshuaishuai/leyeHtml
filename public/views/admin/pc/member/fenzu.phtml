@@ -1,0 +1,85 @@
+{include file="common/header"}
+<div class="content-wrapper">
+    {include file="member/nav"}
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="nav-tabs-custom">
+                    {include file="member/tabs"}
+                    <div class="tab-content">
+                        <div class="page-content">
+                          
+
+                            <form method="post" class="form-horizontal" id="display_form">
+                                <div class="panel panel-default ">
+                                    <div class="table-responsive panel-body">
+                                        <table class="table table-hover">
+                                            <thead class="navbar-inner">
+                                            <tr>
+                                               
+                                                <th>编号</th>
+                                                <th>级别</th>
+                                                <th>开通金额</th>
+                                                <th>是否生效</th>
+                                                <th>一级返佣金额</th>
+                                                <th>二级返佣金额</th>
+                                                <th>三级返佣金额</th>
+                                                <th>补贴（元）</th>
+                                               
+                                                <th>操作</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {if !empty($list)}
+                                                {volist name="list" id="item"}
+                                                <tr>
+                                                    
+                                                    <td>{$item['id']}</td>
+                                                    <td>{$item['title']}</td>
+                                                    <td>
+                                                        {$item['have_money']}元
+                                                    </td>
+                                                    <td>{if $item['is_effect'] > 0}生效{else /}未生效{/if}</td>
+                                                    <td>{$item['repay_1']}</td>
+                                                    <td>{$item['repay_2']}</td>
+                                                    <td>{$item['repay_3']}</td>
+                                                   <td>{$item['butie']}</td>
+                                                    <td>
+                                                        <a href="{:U('level_edit', 'id=' . $item['id'])}" class="btn btn-sm btn-success">编辑</a>
+                                                    </td>
+                                                </tr>
+                                                {/volist}
+                                             
+                                            {/if}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </form>
+                        
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('button[name="submit"]').bind('click',function() {
+                                        if (confirm('删除后不可恢复，您确定删除吗？')) {
+                                            $.post(
+                                                window.location.href,
+                                                $('#display_form').serialize(),
+                                                function (ret) {
+                                                    message(ret.message, ret.redirect, ret.type);
+                                                }, 'json'
+                                            );
+                                        }
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+                <!-- /.nav-tabs-custom -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+</div>
+{include file="common/footer"}

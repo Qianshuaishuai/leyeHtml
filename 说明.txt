@@ -1,0 +1,18 @@
+php5.6 开启伪静态
+
+ 安装步骤：
+
+1.域名指向 public
+
+2.修改/app/database.php 中的数据库名、用户名、密码
+3.保证/服务器目录/public/uploads目录可写
+
+
+后台：域名+/admin  账号admin  密码 1529310810
+
+短信接口阿里云\app\home\controller\Register.php   96行
+
+码支付申请地址：https://codepay.fateqq.com/home.htm
+回调地址：通知地址/home/notify/mazhifunotify
+
+码支付配置id和密匙是在代码里面修改，提供码支付ID和密匙

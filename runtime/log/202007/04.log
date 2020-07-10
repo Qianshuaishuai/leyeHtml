@@ -1,0 +1,3504 @@
+---------------------------------------------------------------
+[ 2020-07-04T08:59:42+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.024627s][吞吐率：40.61req/s] [内存消耗：3,093.54kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-04T08:59:45+08:00 ] 14.29.69.14 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.026147s][吞吐率：38.25req/s] [内存消耗：3,127.09kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-04T09:01:15+08:00 ] 14.29.69.14 GET /home/invite.html
+[ info ] tasks.qimsj.com/home/invite.html [运行时间：0.025033s][吞吐率：39.95req/s] [内存消耗：3,108.90kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'invite',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:33+08:00 ] 14.29.69.14 GET /home/invite.html
+[ info ] tasks.qimsj.com/home/invite.html [运行时间：0.382024s][吞吐率：2.62req/s] [内存消耗：3,936.84kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'invite',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132799s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:36+08:00 ] 14.29.69.14 GET /home/invite.html
+[ info ] tasks.qimsj.com/home/invite.html [运行时间：0.032382s][吞吐率：30.88req/s] [内存消耗：3,936.53kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'invite',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001287s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:43+08:00 ] 14.29.69.14 GET /home/invite.html
+[ info ] tasks.qimsj.com/home/invite.html [运行时间：0.034355s][吞吐率：29.11req/s] [内存消耗：3,936.53kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'invite',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001801s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:44+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.099823s][吞吐率：10.02req/s] [内存消耗：4,302.09kb] [文件加载：61]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/invite.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:44+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.082685s][吞吐率：12.09req/s] [内存消耗：2,004.96kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:50+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.136616s][吞吐率：7.32req/s] [内存消耗：4,270.14kb] [文件加载：61]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ VIEW ] ./views/home/mobile/notice/detail.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_notice` [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_notice` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:50+08:00 ] 14.29.69.14 GET /home/notice/detail/id/clientapp/images/new_images/favicon.ico
+[ info ] tasks.qimsj.com/home/notice/detail/id/clientapp/images/new_images/favicon.ico [运行时间：0.029939s][吞吐率：33.40req/s] [内存消耗：3,921.30kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/notice/detail/id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'clientapp',
+  'images' => 'new_images',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000319s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000165s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:54+08:00 ] 14.29.69.14 GET /home/notice/detail/id/5.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/5.html [运行时间：0.034322s][吞吐率：29.14req/s] [内存消耗：4,078.50kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ VIEW ] ./views/home/mobile/notice/detail.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_notice` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_notice` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:54+08:00 ] 14.29.69.14 GET /home/notice/detail/id/clientapp/images/new_images/favicon.ico
+[ info ] tasks.qimsj.com/home/notice/detail/id/clientapp/images/new_images/favicon.ico [运行时间：0.048781s][吞吐率：20.50req/s] [内存消耗：3,921.30kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/notice/detail/id/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'clientapp',
+  'images' => 'new_images',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:56+08:00 ] 14.29.69.14 GET /home/account/withdraw.html
+[ info ] tasks.qimsj.com/home/account/withdraw.html [运行时间：0.071755s][吞吐率：13.94req/s] [内存消耗：3,990.36kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->withdraw[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:28:58+08:00 ] 14.29.69.14 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.031782s][吞吐率：31.46req/s] [内存消耗：3,954.94kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001329s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:29:17+08:00 ] 14.29.69.14 GET /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.081769s][吞吐率：12.23req/s] [内存消耗：2,394.71kb] [文件加载：50]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/admin/pc/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'admin',
+  3 => 'treeMenu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:29:17+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.018380s][吞吐率：54.41req/s] [内存消耗：2,004.92kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:31:16+08:00 ] 14.29.69.14 GET /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.027204s][吞吐率：36.76req/s] [内存消耗：2,394.95kb] [文件加载：50]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/admin/pc/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'admin',
+  3 => 'treeMenu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:31:17+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.017623s][吞吐率：56.74req/s] [内存消耗：2,005.38kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:31:18+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.018162s][吞吐率：55.06req/s] [内存消耗：2,005.38kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:09+08:00 ] 14.29.69.14 POST /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.081950s][吞吐率：12.20req/s] [内存消耗：2,463.45kb] [文件加载：54]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'accept' => '*/*',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:29+08:00 ] 183.48.244.70 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.039476s][吞吐率：25.33req/s] [内存消耗：3,990.39kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/task.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:34+08:00 ] 183.48.244.70 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.028023s][吞吐率：35.68req/s] [内存消耗：4,106.80kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000277s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000164s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:34+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016633s][吞吐率：60.12req/s] [内存消耗：2,004.80kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:38+08:00 ] 183.48.244.70 GET /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.056188s][吞吐率：17.80req/s] [内存消耗：4,306.50kb] [文件加载：61]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ VIEW ] ./views/home/mobile/register/index.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'parent_uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:38+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.023195s][吞吐率：43.11req/s] [内存消耗：2,004.77kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:42+08:00 ] 183.48.244.70 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.030922s][吞吐率：32.34req/s] [内存消耗：4,106.80kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000329s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:32:42+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.015513s][吞吐率：64.46req/s] [内存消耗：2,004.80kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:33:32+08:00 ] 180.97.118.219 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.037183s][吞吐率：26.89req/s] [内存消耗：3,989.32kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:33:34+08:00 ] 101.91.62.89 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.029515s][吞吐率：33.88req/s] [内存消耗：4,105.51kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:50:09+08:00 ] 183.48.244.70 GET /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.027866s][吞吐率：35.89req/s] [内存消耗：4,106.62kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ VIEW ] ./views/home/mobile/register/index.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'parent_uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:50:10+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016815s][吞吐率：59.47req/s] [内存消耗：2,004.77kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:50:11+08:00 ] 183.48.244.70 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.028933s][吞吐率：34.56req/s] [内存消耗：4,106.80kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000293s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000184s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:50:11+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016557s][吞吐率：60.40req/s] [内存消耗：2,004.80kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:50:12+08:00 ] 183.48.244.70 GET /captcha.html?0.5975645078336592
+[ info ] tasks.qimsj.com/captcha.html?0.5975645078336592 [运行时间：0.016658s][吞吐率：60.03req/s] [内存消耗：2,005.56kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_5975645078336592' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:51:45+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.067497s][吞吐率：14.82req/s] [内存消耗：1,908.28kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:51:49+08:00 ] 14.29.69.14 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.028082s][吞吐率：35.61req/s] [内存消耗：3,990.96kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000167s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:52:20+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.030673s][吞吐率：32.60req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:52:20+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016561s][吞吐率：60.38req/s] [内存消耗：2,005.63kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:52:20+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.015623s][吞吐率：64.01req/s] [内存消耗：1,908.33kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:54:14+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.030267s][吞吐率：33.04req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000181s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:15+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.020290s][吞吐率：49.29req/s] [内存消耗：2,005.63kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:15+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.016107s][吞吐率：62.08req/s] [内存消耗：1,908.33kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:54:16+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.029823s][吞吐率：33.53req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000159s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:16+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.015143s][吞吐率：66.04req/s] [内存消耗：2,005.63kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:16+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.015046s][吞吐率：66.46req/s] [内存消耗：1,908.33kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:54:17+08:00 ] 14.29.69.14 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.040803s][吞吐率：24.51req/s] [内存消耗：3,990.96kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.012076s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:19+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.028045s][吞吐率：35.66req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000161s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:19+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.014978s][吞吐率：66.76req/s] [内存消耗：2,005.61kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:19+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.016851s][吞吐率：59.34req/s] [内存消耗：1,908.33kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:54:27+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.028727s][吞吐率：34.81req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:27+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.021961s][吞吐率：45.54req/s] [内存消耗：2,005.63kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-04T11:54:27+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.016596s][吞吐率：60.26req/s] [内存消耗：1,908.33kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:55:34+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.032487s][吞吐率：30.78req/s] [内存消耗：4,108.10kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:55:35+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.019361s][吞吐率：51.65req/s] [内存消耗：1,908.32kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:55:35+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.147969s][吞吐率：6.76req/s] [内存消耗：1,920.80kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:56:17+08:00 ] 14.29.69.14 GET /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.019519s][吞吐率：51.23req/s] [内存消耗：2,394.95kb] [文件加载：50]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/admin/pc/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'admin',
+  3 => 'treeMenu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:56:18+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.017352s][吞吐率：57.63req/s] [内存消耗：1,920.54kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:56:28+08:00 ] 14.29.69.14 POST /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.022086s][吞吐率：45.28req/s] [内存消耗：2,463.77kb] [文件加载：54]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=64i4b4rtm9vd0bdoaq7lmo7c57',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => 'F7CN',
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:31+08:00 ] 14.29.69.14 POST /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.019808s][吞吐率：50.48req/s] [内存消耗：2,463.77kb] [文件加载：54]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=64i4b4rtm9vd0bdoaq7lmo7c57',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => 'F7CN',
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:41+08:00 ] 14.29.69.14 POST /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.029317s][吞吐率：34.11req/s] [内存消耗：2,463.77kb] [文件加载：54]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=64i4b4rtm9vd0bdoaq7lmo7c57',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => 'F7CN',
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:55+08:00 ] 183.48.244.70 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.030784s][吞吐率：32.48req/s] [内存消耗：3,990.21kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:56+08:00 ] 183.48.244.70 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.031377s][吞吐率：31.87req/s] [内存消耗：4,106.80kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001287s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:56+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.023766s][吞吐率：42.08req/s] [内存消耗：1,919.85kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:56:59+08:00 ] 183.48.244.70 GET /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.032945s][吞吐率：30.35req/s] [内存消耗：4,107.37kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ VIEW ] ./views/home/mobile/register/index.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'parent_uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000191s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:56:59+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016687s][吞吐率：59.93req/s] [内存消耗：1,920.40kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:57:12+08:00 ] 183.48.244.70 GET /captcha.html?0.5470544600015473
+[ info ] tasks.qimsj.com/captcha.html?0.5470544600015473 [运行时间：0.014640s][吞吐率：68.31req/s] [内存消耗：1,921.20kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_5470544600015473' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:57:19+08:00 ] 183.48.244.70 POST /home/register/sendsmscode?__t=0.9170955329129652
+[ info ] tasks.qimsj.com/home/register/sendsmscode?__t=0.9170955329129652 [运行时间：0.615092s][吞吐率：1.63req/s] [内存消耗：5,184.66kb] [文件加载：81]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => 'sendsmscode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '39',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  '__t' => '0.9170955329129652',
+  'type' => '2',
+  'mobile' => '15602335027',
+  'validate' => 'RQRU',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->sendsmscode[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.002712s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:30+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.058611s][吞吐率：17.06req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000272s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000180s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:34+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.031908s][吞吐率：31.34req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.002144s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000192s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:35+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.034290s][吞吐率：29.16req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001327s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000183s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:35+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.029960s][吞吐率：33.38req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000180s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:45+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.030718s][吞吐率：32.55req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000289s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000212s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:46+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.029677s][吞吐率：33.70req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000152s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:46+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.027923s][吞吐率：35.81req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000258s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000205s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:46+08:00 ] 183.48.244.70 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.028934s][吞吐率：34.56req/s] [内存消耗：4,178.75kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://tasks.qimsj.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'connection' => 'keep-alive',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'content-length' => '121',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'RQRU',
+  'verification' => '146205',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000231s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:47+08:00 ] 183.48.244.70 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.029173s][吞吐率：34.28req/s] [内存消耗：4,107.95kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000190s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:47+08:00 ] 183.48.244.70 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016164s][吞吐率：61.87req/s] [内存消耗：1,920.91kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:57:49+08:00 ] 183.48.244.70 GET /home/notice/detail/id/4.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/4.html [运行时间：0.038825s][吞吐率：25.76req/s] [内存消耗：4,081.65kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ VIEW ] ./views/home/mobile/notice/detail.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_notice` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_notice` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:51+08:00 ] 183.48.244.70 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.026523s][吞吐率：37.70req/s] [内存消耗：3,955.52kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/home.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:56+08:00 ] 183.48.244.70 GET /home/signin.html
+[ info ] tasks.qimsj.com/home/signin.html [运行时间：0.028137s][吞吐率：35.54req/s] [内存消耗：3,940.30kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'cookie' => 'PHPSESSID=ntgkos1fgusoctq2ui3laafld3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/WIFI Language/en',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->index[ /usr/local/nginx/leyeHtml/app/home/controller/Signin.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:57:59+08:00 ] 101.91.60.107 GET /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.028850s][吞吐率：34.66req/s] [内存消耗：4,105.38kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ VIEW ] ./views/home/mobile/register/index.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'parent_uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000267s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:30+08:00 ] 14.29.69.14 GET /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.017215s][吞吐率：58.09req/s] [内存消耗：2,396.08kb] [文件加载：50]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/admin/pc/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'admin',
+  3 => 'treeMenu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:30+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.015813s][吞吐率：63.24req/s] [内存消耗：1,921.09kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:40+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016498s][吞吐率：60.61req/s] [内存消耗：1,908.59kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:41+08:00 ] 14.29.69.14 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.027188s][吞吐率：36.78req/s] [内存消耗：3,991.14kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Account->index[ /usr/local/nginx/leyeHtml/app/home/controller/Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:43+08:00 ] 14.29.69.14 GET /home/auth/login.html
+[ info ] tasks.qimsj.com/home/auth/login.html [运行时间：0.029174s][吞吐率：34.28req/s] [内存消耗：4,108.27kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/account.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/home/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/home/mobile/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:43+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.015813s][吞吐率：63.24req/s] [内存消耗：1,921.13kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:43+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.016110s][吞吐率：62.07req/s] [内存消耗：1,908.46kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:44+08:00 ] 14.29.69.14 GET /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.028678s][吞吐率：34.87req/s] [内存消耗：4,107.70kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ VIEW ] ./views/home/mobile/register/index.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'parent_uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:44+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.016355s][吞吐率：61.14req/s] [内存消耗：1,921.13kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:44+08:00 ] 14.29.69.14 GET /static/home/mobile/js/jquery.min.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/jquery.min.map [运行时间：0.016875s][吞吐率：59.26req/s] [内存消耗：1,908.46kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:49+08:00 ] 101.89.29.78 GET /home/notice/detail/id/4.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/4.html [运行时间：0.043319s][吞吐率：23.08req/s] [内存消耗：4,080.22kb] [文件加载：59]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Notice->detail[ /usr/local/nginx/leyeHtml/app/home/controller/Notice.php ]
+[ info ] [ VIEW ] ./views/home/mobile/notice/detail.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'site',
+  3 => 'member',
+  4 => 'item',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_notice` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_notice` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000205s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:51+08:00 ] 61.129.6.145 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.029394s][吞吐率：34.02req/s] [内存消耗：3,954.16kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:53+08:00 ] 14.29.69.14 GET /captcha.html?0.4395417088263254
+[ info ] tasks.qimsj.com/captcha.html?0.4395417088263254 [运行时间：0.015355s][吞吐率：65.13req/s] [内存消耗：1,921.47kb] [文件加载：40]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_4395417088263254' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-04T11:58:56+08:00 ] 101.89.19.149 GET /home/signin.html
+[ info ] tasks.qimsj.com/home/signin.html [运行时间：0.026988s][吞吐率：37.05req/s] [内存消耗：3,938.79kb] [文件加载：55]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'signin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Signin->index[ /usr/local/nginx/leyeHtml/app/home/controller/Signin.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000276s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:58:57+08:00 ] 14.29.69.14 POST /home/register/sendsmscode?__t=0.10792935581292351
+[ info ] tasks.qimsj.com/home/register/sendsmscode?__t=0.10792935581292351 [运行时间：0.198324s][吞吐率：5.04req/s] [内存消耗：5,185.14kb] [文件加载：81]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => 'sendsmscode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+)
+[ info ] [ PARAM ] array (
+  '__t' => '0.10792935581292351',
+  'type' => '2',
+  'mobile' => '15602335027',
+  'validate' => 'PPXZ',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->sendsmscode[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2020-07-04T11:59:21+08:00 ] 14.29.69.14 POST /home/register.html
+[ info ] tasks.qimsj.com/home/register.html [运行时间：0.033218s][吞吐率：30.10req/s] [内存消耗：4,179.86kb] [文件加载：63]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '121',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tasks.qimsj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tasks.qimsj.com/home/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'cookie' => 'PHPSESSID=i2e2875u0t1n52fqtiohkap2m3',
+)
+[ info ] [ PARAM ] array (
+  'username' => '15602335027',
+  'email' => '',
+  'password' => 'bbsbbzs123',
+  'password_confirm' => 'bbsbbzs123',
+  'captcha' => 'PPXZ',
+  'verification' => '646828',
+  'parent_uid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\home\controller\Register->index[ /usr/local/nginx/leyeHtml/app/home/controller/Register.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000308s ] mysql:host=127.0.0.1;port=3306;dbname=leyeguo;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_config` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_config` LIMIT 1 [ RunTime:0.000207s ]
+[ error ] [1]Call to undefined function think\mb_strlen()[/usr/local/nginx/leyeHtml/thinkphp/library/think/Validate.php:1088]

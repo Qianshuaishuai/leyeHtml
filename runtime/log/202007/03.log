@@ -1,0 +1,1159 @@
+---------------------------------------------------------------
+[ 2020-07-03T16:00:08+08:00 ] 14.29.69.14 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.026542s][吞吐率：37.68req/s] [内存消耗：3,127.77kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:00:13+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.017820s][吞吐率：56.12req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:00:15+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.027056s][吞吐率：36.96req/s] [内存消耗：3,093.56kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:00:30+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.027456s][吞吐率：36.42req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:00:31+08:00 ] 14.29.69.14 GET /home/account.html
+[ info ] tasks.qimsj.com/home/account.html [运行时间：0.027940s][吞吐率：35.79req/s] [内存消耗：3,162.02kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:00:35+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016612s][吞吐率：60.20req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:00:42+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016545s][吞吐率：60.44req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:00:42+08:00 ] 14.29.69.14 GET /home/account/withdraw.html
+[ info ] tasks.qimsj.com/home/account/withdraw.html [运行时间：0.024990s][吞吐率：40.02req/s] [内存消耗：3,162.33kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:01:54+08:00 ] 14.29.69.14 GET /home/account/withdraw.html
+[ info ] tasks.qimsj.com/home/account/withdraw.html [运行时间：0.023855s][吞吐率：41.92req/s] [内存消耗：3,162.33kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:01:55+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016349s][吞吐率：61.17req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:01:57+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.022375s][吞吐率：44.69req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:03+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016140s][吞吐率：61.96req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:04+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016830s][吞吐率：59.42req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:11+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016083s][吞吐率：62.18req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:13+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016886s][吞吐率：59.22req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:15+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.021444s][吞吐率：46.63req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:02:16+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.035526s][吞吐率：28.15req/s] [内存消耗：3,093.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:07:33+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.026889s][吞吐率：37.19req/s] [内存消耗：3,093.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:11:59+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.018286s][吞吐率：54.69req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:12:01+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.018303s][吞吐率：54.64req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:12:01+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016763s][吞吐率：59.66req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:12:02+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.017405s][吞吐率：57.45req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:12:02+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.024359s][吞吐率：41.05req/s] [内存消耗：3,093.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:12:06+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016594s][吞吐率：60.26req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:12:10+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.022786s][吞吐率：43.89req/s] [内存消耗：3,093.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:13:12+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.023729s][吞吐率：42.14req/s] [内存消耗：3,093.12kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:13:58+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.022701s][吞吐率：44.05req/s] [内存消耗：3,093.12kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:14:24+08:00 ] 14.29.69.14 GET /home/vip.html
+[ info ] tasks.qimsj.com/home/vip.html [运行时间：0.026785s][吞吐率：37.33req/s] [内存消耗：3,127.41kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'vip',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:14:34+08:00 ] 14.29.69.14 GET /admin/auth/login.html
+[ info ] tasks.qimsj.com/admin/auth/login.html [运行时间：0.021595s][吞吐率：46.31req/s] [内存消耗：2,597.73kb] [文件加载：52]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'if-none-match' => '"5efed8a3-16d"',
+  'if-modified-since' => 'Fri, 03 Jul 2020 07:05:07 GMT',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->login[ /usr/local/nginx/leyeHtml/app/admin/controller/Auth.php ]
+[ info ] [ VIEW ] ./views/admin/pc/auth/login.phtml [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'admin',
+  3 => 'treeMenu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:14:35+08:00 ] 14.29.69.14 GET /captcha.html
+[ info ] tasks.qimsj.com/captcha.html [运行时间：0.018466s][吞吐率：54.15req/s] [内存消耗：2,005.33kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-03T16:14:45+08:00 ] 14.29.69.14 GET /captcha.html?0.11274135418010833
+[ info ] tasks.qimsj.com/captcha.html?0.11274135418010833 [运行时间：0.016685s][吞吐率：59.93req/s] [内存消耗：2,005.77kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_11274135418010833' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-03T16:14:46+08:00 ] 14.29.69.14 GET /captcha.html?0.5550271559502957
+[ info ] tasks.qimsj.com/captcha.html?0.5550271559502957 [运行时间：0.016889s][吞吐率：59.21req/s] [内存消耗：2,005.77kb] [文件加载：44]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/admin/auth/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_5550271559502957' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function think\captcha\imagecreate()[/usr/local/nginx/leyeHtml/vendor/topthink/think-captcha/src/Captcha.php:143]
+---------------------------------------------------------------
+[ 2020-07-03T16:14:53+08:00 ] 14.29.69.14 GET /home/invite.html
+[ info ] tasks.qimsj.com/home/invite.html [运行时间：0.023792s][吞吐率：42.03req/s] [内存消耗：3,109.34kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'invite',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.5;q=0.4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:21:12+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.026677s][吞吐率：37.49req/s] [内存消耗：3,093.12kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:26:10+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016542s][吞吐率：60.45req/s] [内存消耗：1,908.20kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:26:12+08:00 ] 14.29.69.14 GET /static/home/mobile/js/maps/swiper.min.js.map
+[ info ] tasks.qimsj.com/static/home/mobile/js/maps/swiper.min.js.map [运行时间：0.016610s][吞吐率：60.21req/s] [内存消耗：1,908.12kb] [文件加载：41]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'maps',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-03T16:26:39+08:00 ] 14.29.69.14 GET /home/notice/detail/id/4.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/4.html [运行时间：0.029089s][吞吐率：34.38req/s] [内存消耗：3,093.05kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:29:10+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.025914s][吞吐率：38.59req/s] [内存消耗：3,092.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
+---------------------------------------------------------------
+[ 2020-07-03T16:29:14+08:00 ] 14.29.69.14 GET /home/notice/detail/id/3.html
+[ info ] tasks.qimsj.com/home/notice/detail/id/3.html [运行时间：0.022145s][吞吐率：45.16req/s] [内存消耗：3,092.98kb] [文件加载：56]
+[ info ] [ LANG ] /usr/local/nginx/leyeHtml/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'notice',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tasks.qimsj.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://tasks.qimsj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,zh;q=0.6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PDO' not found[/usr/local/nginx/leyeHtml/thinkphp/library/think/Db.php:102]
