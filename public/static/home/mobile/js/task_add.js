@@ -242,7 +242,7 @@ $(function () {
                 console.log(e.message);
             }
         }
-        message('正在发布','','loading');
+        var loading = message('正在发布中','','loading');
         $.ajax({
             url: post_form_action,
             type: 'POST',
@@ -254,9 +254,14 @@ $(function () {
             processData: false,
             success: function (res) {
                 message(res.message,res.redirect,res.type);
+                loading.close();
             },
-            error: function () {
+            error: function (result) {
+                // console.log(res)
+                // alert(result.statusText)
                 message('请求错误','','error');
+                // message(res.message,res.redirect,res.type);
+                loading.close();
             }
         });
     });

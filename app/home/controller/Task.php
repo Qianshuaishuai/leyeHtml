@@ -1,4 +1,5 @@
 <?php
+
 namespace app\home\controller;
 
 use app\admin\model\Config;
@@ -10,44 +11,47 @@ use app\home\model\Member;
 use think\Db;
 use think\Log;
 
-class Task extends Base{
+class Task extends Base
+{
 
-    public function index(){
+    public function index()
+    {
         $category_id = floor(trim(params('category_id')));
         //任务列表
         $params = request()->request();
-        if(check_array($params)){
+        if (check_array($params)) {
             array_trim($params);
         }
         $params['category_id'] = $category_id;
         $pszie = 15;
-        $tasks = \app\home\model\Task::getListByParams($params,$pszie);
-        if(request()->isAjax()){
-            if(empty($tasks)){
-                message('没有更多任务','','error');
+        $tasks = \app\home\model\Task::getListByParams($params, $pszie);
+        if (request()->isAjax()) {
+            if (empty($tasks)) {
+                message('没有更多任务', '', 'error');
             }
-            message($tasks,'','success');
+            message($tasks, '', 'success');
         }
         $count = \app\home\model\Task::getCountByParams($params);
-        $pageCount = ceil($count/$pszie);
+        $pageCount = ceil($count / $pszie);
 
-        return $this->fetch(__FUNCTION__,[
+        return $this->fetch(__FUNCTION__, [
             'tasks' => $tasks,
             'pageCount' => $pageCount
         ]);
     }
 
-    public function detail(){
+    public function detail()
+    {
         $is_can_op = 0;
         $id = floor(trim(params('id')));
-        if(!check_id($id)){
-            message('任务ID错误','','error');
+        if (!check_id($id)) {
+            message('任务ID错误', '', 'error');
         }
         $item = \app\home\model\Task::getInfoById($id);
-        if(empty($item)){
-            message('任务不存在','','error');
+        if (empty($item)) {
+            message('任务不存在', '', 'error');
         }
-        if(!empty($this->member['uid']) && $item['uid'] == $this->member['uid']){
+        if (!empty($this->member['uid']) && $item['uid'] == $this->member['uid']) {
             $is_can_op = 1;
         }
 
@@ -65,17 +69,17 @@ class Task extends Base{
             $allow_accept = false;
         }
         $gory = Db::name("task_category")->where("id = {$item['category_id']}")->find();
-        if($gory['only_level'] == '1'||$gory['only_level']<1){
+        if ($gory['only_level'] == '1' || $gory['only_level'] < 1) {
             $msgtt = "普通会员及以上可接";
-        }elseif ($gory['only_level'] == '2') {
-             $msgtt = "VIP会员及以上可接";
-        }elseif ($gory['only_level'] == '3') {
-             $msgtt = "高级VIP会员及以上可接";
-        }else{
-             $msgtt = "特级VIP会员及以上可接";
+        } elseif ($gory['only_level'] == '2') {
+            $msgtt = "VIP会员及以上可接";
+        } elseif ($gory['only_level'] == '3') {
+            $msgtt = "高级VIP会员及以上可接";
+        } else {
+            $msgtt = "特级VIP会员及以上可接";
         }
 
-        return $this->fetch(__FUNCTION__,[
+        return $this->fetch(__FUNCTION__, [
             'item' => $item,
             'is_can_op' => $is_can_op,
             'operate_steps' => $operate_steps,
@@ -85,7 +89,8 @@ class Task extends Base{
         ]);
     }
 
-    public function task_join_ajax() {
+    public function task_join_ajax()
+    {
         $task_id = intval(trim(params('id')));
         $where = ['task_join.task_id' => $task_id];
         $list = \app\home\model\TaskJoin::getTaskPassJoin($where, 15);
@@ -104,44 +109,45 @@ class Task extends Base{
     }
 
     //抢单任务
-    public function accept(){
+    public function accept()
+    {
         $member = $this->checkLogin();
         $id = floor(trim(params('id')));
-        if(!check_id($id)){
-            message('任务ID错误','','error');
+        if (!check_id($id)) {
+            message('任务ID错误', '', 'error');
         }
         $item = \app\home\model\Task::getInfoById($id);
-        if(empty($item)){
-            message('任务不存在','','error');
+        if (empty($item)) {
+            message('任务不存在', '', 'error');
         }
         if ($item['start_time'] > TIMESTAMP || $item['origin_end_time'] < TIMESTAMP) {
-            message('任务不存在','','error');
+            message('任务不存在', '', 'error');
         }
 
-        if(!empty($this->member['uid']) && $item['uid'] == $this->member['uid']){
-            message('无法抢单自己发布的任务','','error');
+        if (!empty($this->member['uid']) && $item['uid'] == $this->member['uid']) {
+            message('无法抢单自己发布的任务', '', 'error');
         }
 
-         $membes_check = Db::name("member")->where("uid = {$this->member->uid}")->find();
-          $taskcheck = Db::name("task")->where("id = {$id}")->find();
+        $membes_check = Db::name("member")->where("uid = {$this->member->uid}")->find();
+        $taskcheck = Db::name("task")->where("id = {$id}")->find();
         $cageor = Db::name("task_category")->where("id = {$taskcheck['category_id']}")->find();
-        if($cageor['only_level'] > $membes_check['level']){
-            message("您会员级别不足以接该类别任务",'','error');
+        if ($cageor['only_level'] > $membes_check['level']) {
+            message("您会员级别不足以接该类别任务", '', 'error');
         }
 
         $member_task_join_info = \app\home\model\TaskJoin::getInfoByTaskIdAndUid($id, $this->member['uid']);
         if ($member_task_join_info && $member_task_join_info['status'] != 4) {
-            message('不能重复抢单','','error');
+            message('不能重复抢单', '', 'error');
         }
 
         $lastTask = \app\home\model\MyTaskJoin::getLastTaskJoin($member['uid']);
         if ($lastTask['status'] < 2 && $lastTask['status']) {
-            message('请先完成已接任务，在接新任务','','error');
+            message('请先完成已接任务，在接新任务', '', 'error');
         }
 
         $item['join_num'] == \app\home\model\TaskJoin::getJoinNumByTaskId($id);
         if ($item['join_num'] >= $item['ticket_num']) {
-            message('任务抢单人数已满，无法抢单','','error');
+            message('任务抢单人数已满，无法抢单', '', 'error');
         }
 
         Db::startTrans();
@@ -153,72 +159,73 @@ class Task extends Base{
             'update_time' => TIMESTAMP
         );
         $insert_join_id = \app\home\model\TaskJoin::addInfo($params);
-        if(!$insert_join_id){
+        if (!$insert_join_id) {
             Db::rollback();
-            message('抢单失败:-1','','error');
+            message('抢单失败:-1', '', 'error');
         }
 
         $status = \app\home\model\Task::incJoinNum($id);
-        if(!$status){
+        if (!$status) {
             Db::rollback();
-            message('抢单失败:-2','','error');
+            message('抢单失败:-2', '', 'error');
         }
 
         if ($item['join_num'] + 1 >= $item['ticket_num']) {
             $status = \app\home\model\Task::updateInfoById($id, ['is_complete' => 1]);
-            if(!$status){
+            if (!$status) {
                 Db::rollback();
-                message('抢单失败:-3','','error');
+                message('抢单失败:-3', '', 'error');
             }
         }
 
         Db::commit();
-        message('抢单成功','reload','success');
+        message('抢单成功', 'reload', 'success');
     }
 
     //添加任务
-    public function add(){
+    public function add()
+    {
         $member = $this->checkLogin();
         $setting = ['push_check' => 0];
         $config = Config::getInfo();
-        if(check_array($config['setting'])){
+        if (check_array($config['setting'])) {
             $setting = $config['setting'];
-            if(!empty($setting['period'])){
-                $setting['period'] = explode('#',$setting['period']);
+            if (!empty($setting['period'])) {
+                $setting['period'] = explode('#', $setting['period']);
             }
-            if(!empty($setting['fee'])){
-                $setting['fee'] = round(floatval($setting['fee']*0.01),2);
+            if (!empty($setting['fee'])) {
+                $setting['fee'] = round(floatval($setting['fee'] * 0.01), 2);
             }
-            if(!empty($setting['push_check'])){
+            if (!empty($setting['push_check'])) {
                 $setting['push_check'] = intval($setting['push_check']);
             }
         }
 
         //如果是ajax请求，处理发布
-        if(request()->isAjax()){
-            if(!check_array($setting)){
-                message('平台未进行相关设置','','error');
+        if (request()->isAjax()) {
+            if (!check_array($setting)) {
+                message('平台未进行相关设置', '', 'error');
             }
             $params = array_trim(request()->post());
-            $result = $this->validate($params,'Task');
-            if($result !== true){
-                message($result,'','error');
+            $result = $this->validate($params, 'Task');
+            if ($result !== true) {
+                message($result, '', 'error');
             }
-          //  var_dump($params);die;
+            //  var_dump($params);die;
             $membes_check = Db::name("member")->where("uid = {$this->member->uid}")->find();
             $cageor = Db::name("task_category")->where("id = {$params['category_id']}")->find();
-            if($cageor['only_level'] > $membes_check['level']){
-                message("您会员级别不足以在该类别发布任务",'','error');
+            if ($cageor['only_level'] > $membes_check['level']) {
+                message("您会员级别不足以在该类别发布任务", '', 'error');
             }
-           // var_dump($membes_check);die;
-            $params['fee'] = !empty($setting['fee'])?$setting['fee']:0;
+            // var_dump($membes_check);die;
+            $params['fee'] = !empty($setting['fee']) ? $setting['fee'] : 0;
 
             //处理是否的值
-            param_is_or_no(['is_screenshot','is_ip_restriction','is_limit_speed'],$params);
+            param_is_or_no(['is_screenshot', 'is_ip_restriction', 'is_limit_speed'], $params);
             //处理两位小数的值
-            params_round(['unit_price','give_credit2'],$params,2);
+            params_round(['unit_price', 'give_credit2'], $params, 2);
             //处理是整数的
-            params_floor(['check_period','rate','interval_hour','limit_ticket_num'],$params);
+            params_floor(['check_period', 'rate', 'interval_hour', 'limit_ticket_num'], $params);
 
             $params['give_credit1'] = intval($params['give_credit1']);
             $params['ticket_num'] = intval($params['ticket_num']);
@@ -226,11 +233,11 @@ class Task extends Base{
             $params['amount'] = $params['give_credit2'] * (1 + $params['fee']);
 
             //判断余额或者积分是足够
-            if($params['amount'] > $member['credit2']){
-                message('账户余额不足','','error');
+            if ($params['amount'] > $member['credit2']) {
+                message('账户余额不足', '', 'error');
             }
-            if($params['give_credit1'] > $member['credit1']){
-                message('积分不足','','error');
+            if ($params['give_credit1'] > $member['credit1']) {
+                message('积分不足', '', 'error');
             }
 
             $task_operate_steps_contents = $params['process_sm'];
@@ -238,20 +245,20 @@ class Task extends Base{
             unset($params['processFile']);
 
             if (empty($task_operate_steps_contents)) {
-                message('您未写操作说明!','','error');
+                message('您未写操作说明!', '', 'error');
             }
 
             foreach ($task_operate_steps_contents as $key => $value) {
-                if (empty($value)){
-                    message('您未写操作说明!','','error');
+                if (empty($value)) {
+                    message('您未写操作说明!', '', 'error');
                 }
             }
 
             // 获取表单上传文件
             $thumbs = [];
             $files = request()->file('thumbs');
-            if(check_array($files)){
-                foreach($files as $file){
+            if (check_array($files)) {
+                foreach ($files as $file) {
                     // 移动到框架应用根目录/public/uploads/ 目录下
                     $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
                     // if(!$info){
@@ -284,18 +291,18 @@ class Task extends Base{
                         'mark_height' => 0,
                         'mark_degree' => ''
                     ];
-                    if($water['is_mark']==1 && $image->width() > $water['mark_width'] && $image->height() > $water['mark_height']) {
-                        if($water['mark_type'] == 'text'){
+                    if ($water['is_mark'] == 1 && $image->width() > $water['mark_width'] && $image->height() > $water['mark_height']) {
+                        if ($water['mark_type'] == 'text') {
                             $image->text($water['mark_txt'], './hgzb.ttf', 50, '#ff0000', 9)->save($imgresource);
-                        }else{
-                            $image->water(".".$water['mark_img'], 9, $water['mark_degree'])->save($imgresource);
+                        } else {
+                            $image->water("." . $water['mark_img'], 9, $water['mark_degree'])->save($imgresource);
                         }
                     }
 
                     $record = [
                         'uid' => $this->member['uid'],
                         'extension' => $info->getExtension(),
-                        'save_name' => str_replace('\\','/',$info->getSaveName()),
+                        'save_name' => str_replace('\\', '/', $info->getSaveName()),
                         'filename' => $info->getFilename(),
                         'md5' => $info->hash('md5'),
                         'sha1' => $info->hash('sha1'),
@@ -303,14 +310,14 @@ class Task extends Base{
                         'create_time' => TIMESTAMP
                     ];
                     //记录文件信息
-                    array_push($thumbs,$record['save_name']);
+                    array_push($thumbs, $record['save_name']);
                     //数据库存入失败记录日志
-                    if(!Uploads::addInfo($record)){
-                        Log::error(__FILE__.':'.__LINE__.' 错误：'.$record['save_name'].'数据库记录失败');
+                    if (!Uploads::addInfo($record)) {
+                        Log::error(__FILE__ . ':' . __LINE__ . ' 错误：' . $record['save_name'] . '数据库记录失败');
                     }
                 }
             }
-            $params['thumbs'] = check_array($thumbs)?serialize($thumbs):'';
+            $params['thumbs'] = check_array($thumbs) ? serialize($thumbs) : '';
             $params['start_time'] = strtotime($params['start_time']);
             $params['end_time'] = strtotime($params['end_time']);
             $params['check_period_time'] = intval($params['check_period']) * 3600 + TIMESTAMP;
@@ -320,17 +327,23 @@ class Task extends Base{
             // 上传操作说明配图
             $task_operate_steps_images = [];
             $task_operate_steps_files = request()->file('processFile');
-            if(check_array($task_operate_steps_files)){
-                foreach($task_operate_steps_files as $file){
+            if (check_array($task_operate_steps_files)) {
+                foreach ($task_operate_steps_files as $file) {
                     // 移动到框架应用根目录/public/uploads/ 目录下
                     $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
-                    if(!$info){
-                        message($file->getError(),'','error');
+                    // if(!$info){
+                    //     message($file->getError(),'','error');
+                    // }
+
+                    if ($info == false) {
+                        // 上传失败...
+                        message($file->getError(), '', 'error');
                     }
+
                     $record = [
                         'uid' => $this->member['uid'],
                         'extension' => $info->getExtension(),
-                        'save_name' => str_replace('\\','/',$info->getSaveName()),
+                        'save_name' => str_replace('\\', '/', $info->getSaveName()),
                         'filename' => $info->getFilename(),
                         'md5' => $info->hash('md5'),
                         'sha1' => $info->hash('sha1'),
@@ -340,8 +353,8 @@ class Task extends Base{
                     //记录文件信息
                     array_push($task_operate_steps_images, $record['save_name']);
                     //数据库存入失败记录日志
-                    if(!Uploads::addInfo($record)){
-                        Log::error(__FILE__.':'.__LINE__.' 错误：'.$record['save_name'].'数据库记录失败');
+                    if (!Uploads::addInfo($record)) {
+                        Log::error(__FILE__ . ':' . __LINE__ . ' 错误：' . $record['save_name'] . '数据库记录失败');
                     }
                 }
             }
@@ -351,9 +364,9 @@ class Task extends Base{
 
             Db::startTrans();
             $insert_task_id = \app\home\model\Task::addInfo($params);
-            if(!$insert_task_id){
+            if (!$insert_task_id) {
                 Db::rollback();
-                message('发布失败:-1','','error');
+                message('发布失败:-1', '', 'error');
             }
 
             foreach ($task_operate_steps_contents as $key => $value) {
@@ -366,20 +379,20 @@ class Task extends Base{
                 );
 
                 $insert_task_operate_step_id = \app\home\model\TaskOperateSteps::addInfo($task_operate_steps_params);
-                if(!$insert_task_operate_step_id){
+                if (!$insert_task_operate_step_id) {
                     Db::rollback();
-                    message('发布失败:-2','','error');
+                    message('发布失败:-2', '', 'error');
                 }
             }
 
-            if($params['give_credit1']>0 || $params['amount']>0){
+            if ($params['give_credit1'] > 0 || $params['amount'] > 0) {
                 $status1 = Member::updateCreditById($member['uid'], -$params['give_credit1'], -$params['amount']);
-                if(!$status1){
+                if (!$status1) {
                     Db::rollback();
-                    message('发布失败:-3','','error');
+                    message('发布失败:-3', '', 'error');
                 }
                 //分别记录积分和余额记录
-                if($params['give_credit1']>0){
+                if ($params['give_credit1'] > 0) {
                     $status2 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit1',
@@ -388,12 +401,12 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "发布成功，扣除{$params['give_credit1']}积分。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status2){
+                    if (!$status2) {
                         Db::rollback();
-                        message('发布失败:-4','','error');
+                        message('发布失败:-4', '', 'error');
                     }
                 }
-                if($params['amount']>0){
+                if ($params['amount'] > 0) {
                     $status3 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit2',
@@ -402,17 +415,17 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "发布成功，扣除{$params['amount']}余额。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status3){
+                    if (!$status3) {
                         Db::rollback();
-                        message('发布失败:-5','','error');
+                        message('发布失败:-5', '', 'error');
                     }
                 }
             }
             Db::commit();
-            message('发布成功','/home/mytask.html','success');
+            message('发布成功', '/home/mytask.html', 'success');
         }
         $categories = TaskCategory::getList();
-        return $this->fetch(__FUNCTION__,[
+        return $this->fetch(__FUNCTION__, [
             'item' => ['category_id' => 0],
             'member' => $member,
             'categories' => $categories,
@@ -423,32 +436,33 @@ class Task extends Base{
     }
 
     //编辑任务
-    public function edit($id = 0) {
+    public function edit($id = 0)
+    {
         $member = $this->checkLogin();
         $setting = [];
         $config = Config::getInfo();
-        if(check_array($config['setting'])){
+        if (check_array($config['setting'])) {
             $setting = $config['setting'];
-            if(!empty($setting['period'])){
-                $setting['period'] = explode('#',$setting['period']);
+            if (!empty($setting['period'])) {
+                $setting['period'] = explode('#', $setting['period']);
             }
-            if(!empty($setting['fee'])){
-                $setting['fee'] = round(floatval($setting['fee']*0.01),2);
+            if (!empty($setting['fee'])) {
+                $setting['fee'] = round(floatval($setting['fee'] * 0.01), 2);
             }
         }
 
-        if(!check_id($id)){
-            message('任务ID错误','','error');
+        if (!check_id($id)) {
+            message('任务ID错误', '', 'error');
         }
         $item = \app\home\model\Task::getInfoById($id);
-        if(empty($item)){
-            message('任务不存在','','error');
+        if (empty($item)) {
+            message('任务不存在', '', 'error');
         }
-        if(empty($this->member['uid']) || $item['uid'] != $this->member['uid']){
-            message('任务不存在','','error');
+        if (empty($this->member['uid']) || $item['uid'] != $this->member['uid']) {
+            message('任务不存在', '', 'error');
         }
-        if($item['join_num'] > 0){
-            message('任务状态不允许编辑','','error');
+        if ($item['join_num'] > 0) {
+            message('任务状态不允许编辑', '', 'error');
         }
 
         $operate_steps = \app\home\model\Task::getOperateStepsById($id);
@@ -471,49 +485,50 @@ class Task extends Base{
     }
 
     //编辑任务
-    public function save() {
+    public function save()
+    {
         $member = $this->checkLogin();
         $setting = [];
         $config = Config::getInfo();
-        if(check_array($config['setting'])){
+        if (check_array($config['setting'])) {
             $setting = $config['setting'];
-            if(!empty($setting['period'])){
-                $setting['period'] = explode('#',$setting['period']);
+            if (!empty($setting['period'])) {
+                $setting['period'] = explode('#', $setting['period']);
             }
-            if(!empty($setting['fee'])){
-                $setting['fee'] = round(floatval($setting['fee']*0.01),2);
+            if (!empty($setting['fee'])) {
+                $setting['fee'] = round(floatval($setting['fee'] * 0.01), 2);
             }
         }
 
         $id = floor(trim(params('id')));
-        if(!check_id($id)){
-            message('任务ID错误','','error');
+        if (!check_id($id)) {
+            message('任务ID错误', '', 'error');
         }
         $item = \app\home\model\Task::getInfoById($id);
-        if(empty($item)){
-            message('任务不存在','','error');
+        if (empty($item)) {
+            message('任务不存在', '', 'error');
         }
-        if(empty($this->member['uid']) || $item['uid'] != $this->member['uid']){
-            message('任务不存在','','error');
+        if (empty($this->member['uid']) || $item['uid'] != $this->member['uid']) {
+            message('任务不存在', '', 'error');
         }
-        if($item['join_num'] > 0){
-            message('任务状态不允许编辑','','error');
+        if ($item['join_num'] > 0) {
+            message('任务状态不允许编辑', '', 'error');
         }
 
         $params = array_trim(request()->post());
-        $result = $this->validate($params,'Task');
-        if($result !== true){
-            message($result,'','error');
+        $result = $this->validate($params, 'Task');
+        if ($result !== true) {
+            message($result, '', 'error');
         }
 
-        $params['fee'] = !empty($setting['fee'])?$setting['fee']:0;
+        $params['fee'] = !empty($setting['fee']) ? $setting['fee'] : 0;
 
         //处理是否的值
-        param_is_or_no(['is_screenshot','is_ip_restriction','is_limit_speed'],$params);
+        param_is_or_no(['is_screenshot', 'is_ip_restriction', 'is_limit_speed'], $params);
         //处理两位小数的值
-        params_round(['unit_price','give_credit2'],$params,2);
+        params_round(['unit_price', 'give_credit2'], $params, 2);
         //处理是整数的
-        params_floor(['check_period','rate','interval_hour','limit_ticket_num'],$params);
+        params_floor(['check_period', 'rate', 'interval_hour', 'limit_ticket_num'], $params);
 
         $params['give_credit1'] = intval($params['give_credit1']);
         $params['ticket_num'] = intval($params['ticket_num']);
@@ -521,11 +536,11 @@ class Task extends Base{
         $params['amount'] = floatval($params['give_credit2'] * (1 + $params['fee']));
 
         //判断余额或者积分是足够
-        if($params['amount'] > $member['credit2']){
-            message('账户余额不足','','error');
+        if ($params['amount'] > $member['credit2']) {
+            message('账户余额不足', '', 'error');
         }
-        if($params['give_credit1'] > $member['credit1']){
-            message('积分不足','','error');
+        if ($params['give_credit1'] > $member['credit1']) {
+            message('积分不足', '', 'error');
         }
 
         $task_operate_steps_contents = $params['process_sm'];
@@ -533,11 +548,11 @@ class Task extends Base{
         unset($params['processFile']);
 
         if (empty($task_operate_steps_contents)) {
-            message('您未写操作说明!','','error');
+            message('您未写操作说明!', '', 'error');
         }
         foreach ($task_operate_steps_contents as $key => $value) {
             if (empty($value)) {
-                message('您未写操作说明!','','error');
+                message('您未写操作说明!', '', 'error');
             }
         }
 
@@ -554,14 +569,18 @@ class Task extends Base{
 
         // 获取表单上传文件
         $files = request()->file('thumbs');
-        if(check_array($files)){
-            foreach($files as $file){
+        if (check_array($files)) {
+            foreach ($files as $file) {
                 // 移动到框架应用根目录/public/uploads/ 目录下
                 $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
-                if(!$info){
-                    message($file->getError(),'','error');
-                }
+                // if(!$info){
+                //     message($file->getError(),'','error');
+                // }
 
+                if ($info == false) {
+                    // 上传失败...
+                    message($file->getError(), '', 'error');
+                }
                 $data = array(
                     'state' => 'SUCCESS',
                     'url' => 'public' . DS . 'uploads' . DS . $info->getSaveName(),
@@ -584,18 +603,18 @@ class Task extends Base{
                     'mark_height' => 0,
                     'mark_degree' => ''
                 ];
-                if($water['is_mark']==1 && $image->width() > $water['mark_width'] && $image->height() > $water['mark_height']) {
-                    if($water['mark_type'] == 'text'){
+                if ($water['is_mark'] == 1 && $image->width() > $water['mark_width'] && $image->height() > $water['mark_height']) {
+                    if ($water['mark_type'] == 'text') {
                         $image->text($water['mark_txt'], './hgzb.ttf', 50, '#ff0000', 9)->save($imgresource);
-                    }else{
-                        $image->water(".".$water['mark_img'], 9, $water['mark_degree'])->save($imgresource);
+                    } else {
+                        $image->water("." . $water['mark_img'], 9, $water['mark_degree'])->save($imgresource);
                     }
                 }
-                
+
                 $record = [
                     'uid' => $this->member['uid'],
                     'extension' => $info->getExtension(),
-                    'save_name' => str_replace('\\','/',$info->getSaveName()),
+                    'save_name' => str_replace('\\', '/', $info->getSaveName()),
                     'filename' => $info->getFilename(),
                     'md5' => $info->hash('md5'),
                     'sha1' => $info->hash('sha1'),
@@ -603,14 +622,14 @@ class Task extends Base{
                     'create_time' => TIMESTAMP
                 ];
                 //记录文件信息
-                array_push($thumbs,$record['save_name']);
+                array_push($thumbs, $record['save_name']);
                 //数据库存入失败记录日志
-                if(!Uploads::addInfo($record)){
-                    Log::error(__FILE__.':'.__LINE__.' 错误：'.$record['save_name'].'数据库记录失败');
+                if (!Uploads::addInfo($record)) {
+                    Log::error(__FILE__ . ':' . __LINE__ . ' 错误：' . $record['save_name'] . '数据库记录失败');
                 }
             }
         }
-        $params['thumbs'] = check_array($thumbs)?serialize($thumbs):'';
+        $params['thumbs'] = check_array($thumbs) ? serialize($thumbs) : '';
         $params['start_time'] = strtotime($params['start_time']);
         $params['end_time'] = strtotime($params['end_time']);
         $params['check_period_time'] = intval($params['check_period']) * 3600 + TIMESTAMP;
@@ -651,9 +670,9 @@ class Task extends Base{
 
             if ($task_operate_steps_update) {
                 $task_operate_steps_update_result = \app\home\model\TaskOperateSteps::updateInfoById($value['id'], $task_operate_steps_update);
-                if(!$task_operate_steps_update_result){
+                if (!$task_operate_steps_update_result) {
                     Db::rollback();
-                    message('保存失败:-1','','error');
+                    message('保存失败:-1', '', 'error');
                 }
             }
 
@@ -664,27 +683,32 @@ class Task extends Base{
         //删除操作说明
         if (count($operate_step_del_ids)) {
             $status0 = \app\home\model\TaskOperateSteps::deleteByIds($operate_step_del_ids);
-            if(!$status0){
+            if (!$status0) {
                 Db::rollback();
-                message('保存失败:-2','','error');
+                message('保存失败:-2', '', 'error');
             }
         }
 
         // 上传操作说明配图
         $task_operate_steps_images = [];
         $task_operate_steps_files = request()->file('processFile');
-        if(check_array($task_operate_steps_files)){
-            foreach($task_operate_steps_files as $file){
+        if (check_array($task_operate_steps_files)) {
+            foreach ($task_operate_steps_files as $file) {
                 // 移动到框架应用根目录/public/uploads/ 目录下
                 $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
-                if(!$info){
+                // if(!$info){
+                //     Db::rollback();
+                //     message($file->getError(),'','error');
+                // }
+                if ($info == false) {
+                    // 上传失败...
                     Db::rollback();
-                    message($file->getError(),'','error');
+                    message($file->getError(), '', 'error');
                 }
                 $record = [
                     'uid' => $this->member['uid'],
                     'extension' => $info->getExtension(),
-                    'save_name' => str_replace('\\','/',$info->getSaveName()),
+                    'save_name' => str_replace('\\', '/', $info->getSaveName()),
                     'filename' => $info->getFilename(),
                     'md5' => $info->hash('md5'),
                     'sha1' => $info->hash('sha1'),
@@ -694,8 +718,8 @@ class Task extends Base{
                 //记录文件信息
                 array_push($task_operate_steps_images, $record['save_name']);
                 //数据库存入失败记录日志
-                if(!Uploads::addInfo($record)){
-                    Log::error(__FILE__.':'.__LINE__.' 错误：'.$record['save_name'].'数据库记录失败');
+                if (!Uploads::addInfo($record)) {
+                    Log::error(__FILE__ . ':' . __LINE__ . ' 错误：' . $record['save_name'] . '数据库记录失败');
                 }
             }
         }
@@ -704,9 +728,9 @@ class Task extends Base{
         unset($params['operate_step_id']);
         $insert_task_id = $id;
         $status0 = \app\home\model\Task::updateInfoById($id, $params);
-        if(!$status0){
+        if (!$status0) {
             Db::rollback();
-            message('保存失败:-3','','error');
+            message('保存失败:-3', '', 'error');
         }
 
         foreach ($task_operate_steps_images as $key => $value) {
@@ -719,21 +743,21 @@ class Task extends Base{
             );
 
             $insert_task_operate_step_id = \app\home\model\TaskOperateSteps::addInfo($task_operate_steps_params);
-            if(!$insert_task_operate_step_id){
+            if (!$insert_task_operate_step_id) {
                 Db::rollback();
-                message('保存失败:-4','','error');
+                message('保存失败:-4', '', 'error');
             }
         }
 
-        if($item['give_credit1'] != $params['give_credit1'] || bccomp($item['amount'], $params['amount'], 2) != 0){
-            if($item['give_credit1']>0 || $item['amount']>0){
+        if ($item['give_credit1'] != $params['give_credit1'] || bccomp($item['amount'], $params['amount'], 2) != 0) {
+            if ($item['give_credit1'] > 0 || $item['amount'] > 0) {
                 $status1 = Member::updateCreditById($member['uid'], $item['give_credit1'], $item['amount']);
-                if(!$status1){
+                if (!$status1) {
                     Db::rollback();
-                    message('保存失败:-5','','error');
+                    message('保存失败:-5', '', 'error');
                 }
                 //分别记录积分和余额记录
-                if($item['give_credit1']>0){
+                if ($item['give_credit1'] > 0) {
                     $status2 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit1',
@@ -742,12 +766,12 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "保存成功，退回原{$item['give_credit1']}积分。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status2){
+                    if (!$status2) {
                         Db::rollback();
-                        message('保存失败:-6','','error');
+                        message('保存失败:-6', '', 'error');
                     }
                 }
-                if($item['amount']>0){
+                if ($item['amount'] > 0) {
                     $status3 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit2',
@@ -756,21 +780,21 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "保存成功，退回原{$item['amount']}余额。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status3){
+                    if (!$status3) {
                         Db::rollback();
-                        message('保存失败:-7','','error');
+                        message('保存失败:-7', '', 'error');
                     }
                 }
             }
 
-            if($params['give_credit1']>0 || $params['amount']>0){
+            if ($params['give_credit1'] > 0 || $params['amount'] > 0) {
                 $status1 = Member::updateCreditById($member['uid'], -$params['give_credit1'], -$params['amount']);
-                if(!$status1){
+                if (!$status1) {
                     Db::rollback();
-                    message('保存失败:-8','','error');
+                    message('保存失败:-8', '', 'error');
                 }
                 //分别记录积分和余额记录
-                if($params['give_credit1']>0){
+                if ($params['give_credit1'] > 0) {
                     $status2 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit1',
@@ -779,12 +803,12 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "保存成功，扣除新{$params['give_credit1']}积分。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status2){
+                    if (!$status2) {
                         Db::rollback();
-                        message('保存失败:-9','','error');
+                        message('保存失败:-9', '', 'error');
                     }
                 }
-                if($params['amount']>0){
+                if ($params['amount'] > 0) {
                     $status3 = CreditRecord::addInfo([
                         'uid' => $member['uid'],
                         'type' => 'credit2',
@@ -793,9 +817,9 @@ class Task extends Base{
                         'remark' => "任务[{$insert_task_id}]-" . $params['title'] . "保存成功，扣除新{$params['amount']}余额。",
                         'create_time' => TIMESTAMP
                     ]);
-                    if(!$status3){
+                    if (!$status3) {
                         Db::rollback();
-                        message('保存失败:-10','','error');
+                        message('保存失败:-10', '', 'error');
                     }
                 }
             }
@@ -803,7 +827,6 @@ class Task extends Base{
 
         Db::commit();
 
-        message('保存成功','/home/mytask.html','success');
+        message('保存成功', '/home/mytask.html', 'success');
     }
-
 }

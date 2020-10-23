@@ -11,6 +11,8 @@ use app\admin\model\TaskCategory;
 class Index extends Base{
 
     public function index(){
+        $member = floor(trim(params('member')));
+        echo $member;
         //所有分类
         $categories = TaskCategory::getList();
         //获取今日所有任务个人所得积分和金额

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{$site['seo_title']?$site['seo_title']:''}</title>
+    <meta name="Description" content="{$site['seo_description']?$site['seo_description']:''}" />
+    <meta name="Keywords" content="{$site['seo_keywords']?$site['seo_keywords']:''}" />
+    <link rel="stylesheet" href="/static/home/mobile/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/home/mobile/css/font-awesome.min.css">
+    <link href="/static/home/mobile/css/reset_5.css" rel="stylesheet" type="text/css" />
+    <link href="/static/home/mobile/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/static/home/mobile/css/new_page.css?v=2" />
+    <link rel="stylesheet" href="/static/home/mobile/css/swiper.min.css" />
+    <style type="text/css">
+        .new-main {
+            padding-bottom: 53px;
+        }
+
+        .load-more {
+            margin-top: -10px;
+            margin-bottom: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: #ffffff;
+        }
+    </style>
+    <!-- 弹出层 -->
+    <link rel="stylesheet" href="/static/plugins/dialog/css/dialog.css" />
+    <script type="text/javascript" src="/static/home/mobile/js/jquery-2.0.3.min.js"></script>
+    <script src="/static/plugins/dialog/js/dialog.js"></script>
+    <!-- 弹出层 -->
+    <script type="text/javascript" src="/static/plugins/clipboard.min.js"></script>
+    <script type="text/javascript" src="/static/home/mobile/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/static/home/mobile/js/global.js"></script>
+</head>
+
+<body class="new-body">
+
+    <script>
+        const TASK_MEMBER_TOKEN = "ExoMWTjgVEIVEXG3"
+        window.onload = function() {
+            var cookie = getCookie("member")
+            if (cookie != undefined && cookie != "") {
+                window.location.href = 'http://tasks.qimsj.com';
+                return
+            }
+            if (getQueryVariable("member") == undefined || getQueryVariable("member") == "") {
+                window.location.href = 'http://tasks.qimsj.com';
+                return
+            }
+
+            var memberDecodeStr = uncompile(getQueryVariable("member"))
+            if (memberDecodeStr.indexOf(TASK_MEMBER_TOKEN) == -1) {
+                window.location.href = 'http://tasks.qimsj.com';
+                return
+            }
+
+            var member = memberDecodeStr.replace(TASK_MEMBER_TOKEN, "")
+            var formData = new FormData()
+            formData.append("username", member)
+
+            $.ajax({
+                url: "/home/autologin/login",
+                type: 'POST',
+                data: formData,
+                dataType: "json",
+                async: false,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(res) {
+                    message(res.message, res.redirect, res.type);
+                    loading.close();
+                },
+                error: function(result) {
+                    // console.log(res)
+                    // alert(result.statusText)
+                    message('请求错误', '', 'error');
+                    // message(res.message,res.redirect,res.type);
+                    loading.close();
+                }
+            });
+        };
+
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1];
+                }
+            }
+            return (false);
+        }
+
+        function compile(code) {
+            var c = String.fromCharCode(code.charCodeAt(0) + code.length);
+            for (var i = 1; i < code.length; i++) {
+                c += String.fromCharCode(code.charCodeAt(i) + code.charCodeAt(i - 1));
+            }
+            return (escape(c));
+        }
+
+        function uncompile(code) {
+            code = unescape(code);
+            var c = String.fromCharCode(code.charCodeAt(0) - code.length);
+            for (var i = 1; i < code.length; i++) {
+                c += String.fromCharCode(code.charCodeAt(i) - c.charCodeAt(i - 1));
+            }
+            return c;
+        }
+
+        function getCookie(cookieName) {
+            var strCookie = document.cookie;
+            var arrCookie = strCookie.split("; ");
+            for (var i = 0; i < arrCookie.length; i++) {
+                var arr = arrCookie[i].split("=");
+                if (cookieName == arr[0]) {
+                    return arr[1];
+                }
+            }
+            return "";
+        }
+    </script>
+
+</body>
+
+</html>

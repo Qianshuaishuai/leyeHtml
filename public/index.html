@@ -1,162 +1,188 @@
 ﻿<!DOCTYPE html>
-<html class="pixel-ratio-1" lang="zh-cmn-Hans"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <title>乐业家国任务网</title>
-    <link rel="stylesheet" href="/index/common/weui.css"><!--官方css-->
+<html class="pixel-ratio-1" lang="zh-cmn-Hans">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>乐业推广网</title>
+    <link rel="stylesheet" href="/index/common/weui.css">
+    <!--官方css-->
     <link rel="stylesheet" href="/index/common/example.css">
     <link rel="stylesheet" href="/static/home/mobile/css/swiper.min.css" />
 </head>
+
 <body>
-<script>
-    function plusReady(){
-// 隐藏滚动条
-        plus.webview.currentWebview().setStyle({scrollIndicator:'none'});
-// Android处理返回键
-        plus.key.addEventListener('backbutton',function(){
-            window.history.go(-1);
-        },false);
-    }
-    if(window.plus){
-        plusReady();
-    }else{
-        document.addEventListener('plusready',plusReady,false);
-    }
+    <script>
+        function plusReady() {
+            // 隐藏滚动条
+            plus.webview.currentWebview().setStyle({ scrollIndicator: 'none' });
+            // Android处理返回键
+            plus.key.addEventListener('backbutton', function () {
+                window.history.go(-1);
+            }, false);
+        }
+        if (window.plus) {
+            plusReady();
+        } else {
+            document.addEventListener('plusready', plusReady, false);
+        }
 
+        function compile(code) {
+            var c = String.fromCharCode(code.charCodeAt(0) + code.length);
+            for (var i = 1; i < code.length; i++) {
+                c += String.fromCharCode(code.charCodeAt(i) + code.charCodeAt(i - 1));
+            }
+            return (escape(c));
+        }
+        function uncompile(code) {
+            code = unescape(code);
+            var c = String.fromCharCode(code.charCodeAt(0) - code.length);
+            for (var i = 1; i < code.length; i++) {
+                c += String.fromCharCode(code.charCodeAt(i) - c.charCodeAt(i - 1));
+            }
+            return c;
+        }
 
-</script>
+    </script>
 
-<div class="container" id="container">
-    <div class="page one js_show">
+    <div class="container" id="container">
+        <div class="page one js_show">
 
-        <div id="banner" class="swiper-container swiper-container-horizontal" style="height: 200px;">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="/index/common/banner4.jpg" width="100%" height="200px">
+            <div id="banner" class="swiper-container swiper-container-horizontal" style="height: 200px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/index/common/banner4.jpg" width="100%" height="200px">
+                    </div>
+                    <div class="swiper-slide swiper-slide-next">
+                        <img src="/index/common/banner2.jpg" width="100%" height="200px">
+                    </div>
                 </div>
-                <div class="swiper-slide swiper-slide-next">
-                    <img src="/index/common/banner2.jpg" width="100%" height="200px">
+                <div
+                    class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets">
                 </div>
-            </div><div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"></div>
-        </div>
-
-
-
-        <div class="notice" style="overflow:hidden;line-height:35px;color:gray;height:35px;background-color:#fff;">
-            <div style="position:absolute;z-index:2;background: #fff;vertical-align:top;height:35px;width:35px;padding:5px;box-sizing:border-box;">
-                <img src="/index/common/notice.png" style="width:100%;height:100%;">
             </div>
-            <marquee style="z-index:-1;" scrollamount="3" loop="infinite">乐业家国任务网，用手机就可以赚钱！</marquee>
+
+
+
+            <div class="notice" style="overflow:hidden;line-height:35px;color:gray;height:35px;background-color:#fff;">
+                <div
+                    style="position:absolute;z-index:2;background: #fff;vertical-align:top;height:35px;width:35px;padding:5px;box-sizing:border-box;">
+                    <img src="/index/common/notice.png" style="width:100%;height:100%;">
+                </div>
+                <marquee style="z-index:-1;" scrollamount="3" loop="infinite">乐业推广网，用手机就可以赚钱！</marquee>
+            </div>
+
+
+
+            <div class="weui-grids" style="background-color:#fff;">
+                <a href="/home/notice/detail/id/3.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid00.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        如何赚佣
+                    </p>
+                </a>
+                <a href="/home/invite.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid2.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        推广二维码
+                    </p>
+                </a>
+                <a href="/home/notice/detail/id/4.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid3.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        广告投放
+                    </p>
+                </a>
+                <a href="/home/vip.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/vip.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        成为VIP
+                    </p>
+                </a>
+                <a href="/home/signin.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid6.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        签到赚分
+                    </p>
+                </a>
+                <a href="/home/recharge.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid7.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        在线充值
+                    </p>
+                </a>
+                <a href="/home/account/withdraw.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid8.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        立即提现
+                    </p>
+                </a>
+
+                <a href="/home/notice/detail/id/5.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid9.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        在线客服
+                    </p>
+                </a>
+                <a href="/home/task/add.html" class="weui-grid js_grid">
+                    <div class="weui-grid__icon">
+                        <img src="/index/common/grid10.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        发布任务
+                    </p>
+                </a>
+            </div>
+
+            <div class="weui-tabbar-tian" style="height: 70px;clear: both;background-color: #f8f8f8;"></div>
+
+
         </div>
-
-
-
-        <div class="weui-grids" style="background-color:#fff;">
-            <a href="/home/notice/detail/id/3.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid00.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    如何赚佣
-                </p>
-            </a>
-            <a href="/home/invite.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid2.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    推广二维码
-                </p>
-            </a>
-            <a href="/home/notice/detail/id/4.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid3.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    广告投放
-                </p>
-            </a>
-            <a href="/home/vip.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/vip.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    成为VIP
-                </p>
-            </a>
-            <a href="/home/signin.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid6.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    签到赚分
-                </p>
-            </a>
-            <a href="/home/recharge.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid7.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    在线充值
-                </p>
-            </a>
-            <a href="/home/account/withdraw.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid8.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    立即提现
-                </p>
-            </a>
-
-            <a href="/home/notice/detail/id/5.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid9.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    在线客服
-                </p>
-            </a>
-            <a href="/home/task/add.html" class="weui-grid js_grid">
-                <div class="weui-grid__icon">
-                    <img src="/index/common/grid10.png" alt="">
-                </div>
-                <p class="weui-grid__label">
-                    发布任务
-                </p>
-            </a>
-        </div>
-
-        <div class="weui-tabbar-tian" style="height: 70px;clear: both;background-color: #f8f8f8;"></div>
-
-
     </div>
-</div>
 
 
-<div class="weui-tabbar">
-    <a href="index.html" class="weui-tabbar__item js_item weui-bar__item_on" data-id="one">
-        <img src="/index/common/tab1.png" alt="" class="weui-tabbar__icon">
-        <p class="weui-tabbar__label">首页</p>
-    </a>
-    <a href="/task.html" class="weui-tabbar__item js_item" data-id="two" >
-        <img src="/index/common/tab2.png" alt="" class="weui-tabbar__icon">
-        <p class="weui-tabbar__label">任务中心</p>
-    </a>
-    <a href="/home/account.html" class="weui-tabbar__item js_item" data-id="three" >
-        <img src="/index/common/tab3.png" alt="" class="weui-tabbar__icon">
-        <p class="weui-tabbar__label">个人中心</p>
-    </a>
-</div>
+    <div class="weui-tabbar">
+        <a href="index.html" class="weui-tabbar__item js_item weui-bar__item_on" data-id="one">
+            <img src="/index/common/tab1.png" alt="" class="weui-tabbar__icon">
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="/task.html" class="weui-tabbar__item js_item" data-id="two">
+            <img src="/index/common/tab2.png" alt="" class="weui-tabbar__icon">
+            <p class="weui-tabbar__label">任务中心</p>
+        </a>
+        <a href="/home/account.html" class="weui-tabbar__item js_item" data-id="three">
+            <img src="/index/common/tab3.png" alt="" class="weui-tabbar__icon">
+            <p class="weui-tabbar__label">个人中心</p>
+        </a>
+    </div>
 
-<script type="text/javascript" src="/static/home/mobile/js/swiper.min.js"></script>
-<script>
-    new Swiper("#banner", {
-        pagination: {
-            el: '#banner-pagination',
-        },
-        autoplay:5000,
-        loop:true
-    });
-</script>
+    <script type="text/javascript" src="/static/home/mobile/js/swiper.min.js"></script>
+    <script>
+        new Swiper("#banner", {
+            pagination: {
+                el: '#banner-pagination',
+            },
+            autoplay: 5000,
+            loop: true
+        });
+    </script>
 </body>
+
 </html>
